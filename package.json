@@ -1,0 +1,16 @@
+{
+  "name": "alena-code-challenge",
+  "description": "Code Challenge",
+  "author": {
+    "name": "Alena",
+    "email": "alenadagneau@gmail.com"
+  },
+  "dependencies": {
+    "twitter-proxy": "^2.0.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+

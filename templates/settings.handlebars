@@ -1,0 +1,59 @@
+<div class="container modal-content">
+    <div class="settings-header">
+        <img id="close-icon" src="../images/close.svg" alt="Close Modal"></img>
+        <h2 class="settings-title">Settings</h2>
+
+        <hr></hr>
+    </div>
+
+    <div class="modal-body">
+        <div>
+            <label>Choose your tweeters and where you want them positioned</label>
+            <div class="row">
+                <div class="four columns">
+                    <h6 class="input-col-title">Left Column</h6>
+                    <input type="text" id="leftCol"></input>
+                </div>
+                <div class="four columns">
+                    <h6 class="input-col-title">Center Column</h6>
+                    <input type="text" id="centerCol"></input>
+                </div>
+                <div class="four columns">
+                    <h6 class="input-col-title">Right Column</h6>
+                    <input type="text" id="rightCol"></input>
+                </div>
+            </div>
+        </div>
+
+        <label class="input-label">Choose how many tweets you want to see per column</label>
+        <input type="number" id="tweetsVolume"></input>
+
+        <label class="input-label">Or select the time range for your tweets</label>
+        <p>
+            From <input type="date" id="startDate"></input> to <input type="date" id="endDate"></input>
+            <button id="clear-dates">Clear dates</button>
+        </p>
+        <em>&#42;Note that Twitter's historical data storage does not reach back far.</em>
+
+        <hr>
+
+        <h4 class="color-title">Colors</h4>
+        <p>Change the color scheme of this application!</p>
+
+        <label class="input-label"><input type="color" id="bgColor"></input><span class="color-label">Background color</span></label>
+
+        <label class="input-label"><input type="color" id="titleColor"></input><span class="color-label">Title color</span></label>
+
+        <label class="input-label"><input type="color" id="fontColor"></input><span class="color-label">Font color</span></label>
+
+        <label class="input-label"><input type="color" id="linkColor"></input><span class="color-label">Link color</span></label>
+
+        <button id="reset-styles">Reset all default settings</button>
+
+        <div class="button-row">
+            <button id="close-button">Cancel</button>
+            <button id="change-value">Apply Changes</button>
+        </div>
+
+    </div>
+</div>
